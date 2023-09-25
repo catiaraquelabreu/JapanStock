@@ -1,0 +1,203 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 380px;
+  margin-top: 32px;
+  flex-shrink: 0;
+  background: var(--dark-mode-dark-mode-800, #1c212e);
+  margin: 0 auto;
+  justify-content: center;
+
+  .footerContainer {
+    display: flex;
+    max-width: 95vw;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    height: 166px;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      width: 329px;
+
+      .text {
+        color: #fff;
+        font-family: "Monteserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 209px;
+      }
+    }
+
+    .contactUs {
+      display: flex;
+      padding-left: 0px;
+      align-items: flex-end;
+      width: fit-content;
+
+      p {
+        color: var(--neutral-gray-50, #f8fafc);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        width: 100%;
+        text-align: right;
+      }
+
+      div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 8px;
+      }
+    }
+  }
+
+  .footerBottom {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    background: var(--dark-mode-dark-mode-900, #131825);
+
+    div {
+      display: flex;
+      max-width: 95vw;
+      width: 1408px;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        color: #fff;
+        font-family: "Monteserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1304px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+    height: 166px;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      div:nth-child(1) {
+        width: 200px;
+      }
+
+      div:nth-child(2) {
+        width: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 32px;
+    flex-shrink: 0;
+    background: var(--dark-mode-dark-mode-800, #1c212e);
+    margin: 0 auto;
+    justify-content: flex-start;
+
+    .footerContainer {
+      display: flex;
+      max-width: 100%;
+      flex-direction: column;
+      gap: 40px;
+      height: 100%;
+      margin: 0 0 0 0;
+      padding: 44px;
+      justify-content: flex-start;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        width: 329px;
+
+        .text {
+          color: #fff;
+          font-family: "Monteserrat", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          width: 209px;
+        }
+      }
+
+      .contactUs {
+        display: flex;
+        padding-left: 0px;
+        align-items: flex-start;
+
+        p {
+          color: var(--neutral-gray-50, #f8fafc);
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 26px;
+          width: 100%;
+          text-align: left;
+        }
+
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          gap: 8px;
+        }
+      }
+    }
+
+    .footerBottom {
+      display: flex;
+      justify-content: flex-start;
+      flex-grow: 1;
+      width: 100vw;
+      background: var(--dark-mode-dark-mode-900, #131825);
+      margin: 0 0 0 0;
+      padding: 44px;
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        justify-self: flex-start;
+        height: fit-content;
+
+        span {
+          color: #fff;
+          font-family: "Monteserrat", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

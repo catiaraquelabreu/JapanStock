@@ -1,0 +1,40 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  align-items: flex-start;
+  border: 1px solid var(--neutral-gray-200, #e2e8f0);
+  border-radius: 4px;
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    input[type="radio"] {
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #e2e8f0;
+      background-color: #fff;
+      border-radius: 50%;
+      transition: border-color 0.2s ease-in-out,
+        background-color 0.2s ease-in-out;
+    }
+
+    input[type="radio"]:checked {
+      border-color: #94a3b8;
+      background-color: #102fd8;
+    }
+
+    span {
+      color: var(--neutral-gray-900, #0f172a);
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+}

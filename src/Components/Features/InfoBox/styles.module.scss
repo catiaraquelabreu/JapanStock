@@ -1,0 +1,36 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  background: #fff;
+  z-index: 5;
+
+  div {
+    padding-top: 58px;
+    padding-bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: center;
+    width: 270px;
+
+    h3 {
+      color: #000;
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 27.6px;
+      letter-spacing: -0.46px;
+    }
+
+    p {
+      color: var(--neutral-gray-500, #64748b);
+      font-family: "Monteserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}

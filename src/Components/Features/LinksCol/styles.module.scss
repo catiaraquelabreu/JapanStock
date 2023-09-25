@@ -1,0 +1,38 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 300px;
+  max-width: 320px;
+  height: 186px;
+
+  h4 {
+    color: var(--neutral-gray-800, #1e293b);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    a {
+      text-decoration: none;
+      color: var(--neutral-gray-800, #1e293b);
+      font-family: "Monteserrat", sans-serif;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+}

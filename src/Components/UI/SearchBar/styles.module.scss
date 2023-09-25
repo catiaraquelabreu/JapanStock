@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: row;
+  height: 24px;
+
+  .dropdown {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 0 auto;
+    font-family: "Monteserrat", sans-serif;
+    color: #0f172a;
+    font-size: 14px;
+    font-style: normal;
+    appearance: none;
+    z-index: 2;
+  }
+
+  .dropdownHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    background: var(--neutral-gray-50, #f8fafc);
+    cursor: pointer;
+    height: 24px;
+    margin: 0 auto;
+    justify-self: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 120px;
+    padding: 8px 0;
+    background: #f8fafc;
+    border-radius: 4px;
+    box-shadow: 0px 9px 18px 0px rgba(0, 0, 0, 0.15);
+    font-family: "Monteserrat", sans-serif;
+    color: #0f172a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    top: 44px;
+
+    ul {
+      list-style-type: none;
+
+      li {
+        padding: 8px 16px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #e2e8f0;
+        }
+      }
+    }
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    background: #f1f5f9;
+    margin: 0 auto;
+    height: 48px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    input {
+      border: none;
+      color: #64748b;
+      width: 100%;
+      padding: 8px;
+      background: #f1f5f9;
+      height: 24px;
+      margin: 0 auto;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    button {
+      border: none;
+      background: #f1f5f9;
+      cursor: pointer;
+      height: 24px;
+      position: relative;
+      left: -1%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90vw;
+  }
+}

@@ -1,0 +1,35 @@
+[
+    {
+      "contentTitle": "Tokyo",
+      "contentItems": ["Tokyo Skytree", "Nezu Shrine", "Tokyo Tower", "Akihabara", "Shibuya"]
+    },
+    {
+      "contentTitle": "Osaka",
+      "contentItems": ["Dotonbori", "USJ", "Osaka Castle", "Umeda Sky Building", "Kayukan Aquarium"]
+    },
+    {
+      "contentTitle": "Kobe",
+      "contentItems": ["Kobe Harborland", "Nunobiki Waterfall", "Meriken Park", "Ikuta Shrine", "Arima Onsen"]
+    },
+    {
+      "contentTitle": "Kyoto",
+      "contentItems": ["Fushimi Inari-Taisha", "Kiyomizu-Dera", "Arashiyama Bamboo Grove", "Nishiki Market", "Pontocho"]
+    },
+    {
+      "contentTitle": "Hiroshima",
+      "contentItems": ["Peace Park", "Mazda Museum", "Hiroshima Castle", "Miyajima", "Onomichi"]
+    },
+    {
+      "contentTitle": "Yokohama",
+      "contentItems": ["Minato Mirai Manyo Club", "Shin-Yokohama Raumen Museum", "Yokohama Noh Theater", "Yokohama Cosmo World", "Yokohama Hakkeijima Sea Paradise"]
+    },
+    {
+      "contentTitle": "Fukuoka",
+      "contentItems": ["Yatai Stall", "Ohori Park", "Hakata and Tenjin Chikagai", "Uminonakamichi", "Fukuoka Tower"]
+    },
+    {
+      "contentTitle": "Okayama",
+      "contentItems": ["Korakuen Garden", "Okayama Castle", "Kibi Plain", "Naoshima", "Kibitsu Jinja"]
+    }
+  ]
+  

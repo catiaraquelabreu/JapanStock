@@ -1,0 +1,44 @@
+.div {
+  padding: 0px 32px;
+  padding-bottom: 32px;
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 32px;
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .buttonsGrid {
+      display: flex;
+      align-self: center;
+      transform: translateY(94%);
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .div {
+    padding: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 32px;
+    margin: 0 0 0 0;
+  }
+  .map {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Plus+Jakarta+Sans:wght@700&display=swap");
+h1, h2, h3, h4, h5, span, button, link, a, option, p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}/*# sourceMappingURL=index.css.map */
+
+.div {
+  display: flex;
+  flex-direction: column;
+}

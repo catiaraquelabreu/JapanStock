@@ -1,0 +1,11 @@
+.SelectorForm {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-style: none;
+  width: 72px;
+  height: 44px;
+  background-color: #F8FAFC;
+  border-radius: 8px;
+  padding: 24px;
+}/*# sourceMappingURL=styles.module.css.map */

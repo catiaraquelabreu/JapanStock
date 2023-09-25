@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+h1, h2, h3, h4, h5, span, button, link, a, option, p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background: var(--neutral-gray-50, #F8FAFC);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
