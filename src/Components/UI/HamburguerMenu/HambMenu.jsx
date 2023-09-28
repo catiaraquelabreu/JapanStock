@@ -2,50 +2,6 @@ import React from "react";
 import styles from "./styles.module.scss";
 import hambMenu from "/assets/IconHamb.svg";
 
-// function HambMenu() {
-//   return (
-//     <div className={styles.hambContainer}>
-//       <img src={hambMenu} alt="Hamb Icon"></img>
-//       <div className={styles.openHamb}>
-//         <div className={styles.actionsHamb}>
-//           <div className={styles.spanHamb}>
-//             <span>
-//               <a href="#">My profile</a>
-//             </span>
-//           </div>
-//           <div className={styles.spanHamb}>
-//             <span>
-//               <a href="#">My orders</a>
-//             </span>
-//           </div>
-//           <div className={styles.spanHamb}>
-//             <span>
-//               <a href="#">Use Cases</a>
-//             </span>
-//           </div>
-//           <div className={styles.spanHamb}>
-//             <span>
-//               <a href="#">About</a>
-//             </span>
-//           </div>
-//           <div className={styles.spanHamb}>
-//             <span>
-//               <a href="#">Blog</a>
-//             </span>
-//           </div>
-//           <div className={styles.spanHamb}>
-//             <span>
-//               <a href="#">Logout</a>
-//             </span>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default HambMenu;
-
 const useDropdown = () => {
   const [selectedItem, setSelectedItem] = React.useState();
   const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);

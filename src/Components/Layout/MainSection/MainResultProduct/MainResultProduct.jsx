@@ -20,6 +20,7 @@ function MainResultProduct() {
   const { selectedPhotographerText } = usePhotographer();
 
   console.log("srcis:", selectedMediaSrc);
+  console.log("phtgrphr is:", selectedPhotographerText);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 

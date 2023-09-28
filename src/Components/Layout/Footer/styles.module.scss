@@ -110,17 +110,15 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .footer {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: fit-content;
-    margin: 0 auto;
     margin-top: 32px;
     flex-shrink: 0;
     background: var(--dark-mode-dark-mode-800, #1c212e);
-    margin: 0 auto;
     justify-content: flex-start;
 
     .footerContainer {
@@ -130,7 +128,7 @@
       gap: 40px;
       height: 100%;
       margin: 0 0 0 0;
-      padding: 44px;
+      padding: 32px;
       justify-content: flex-start;
 
       div {
@@ -179,7 +177,7 @@
       width: 100vw;
       background: var(--dark-mode-dark-mode-900, #131825);
       margin: 0 0 0 0;
-      padding: 44px;
+      padding: 32px;
       div {
         display: flex;
         flex-wrap: wrap;

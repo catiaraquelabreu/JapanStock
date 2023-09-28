@@ -41,9 +41,13 @@ function GridTwoCol({ info }) {
 
     mediaPhotographer = photo.photographer;
 
+    console.log("mediaPhotographer:", mediaPhotographer);
+
     setSelectedMedia(mediaSrc);
     setSelectedAlt(mediaAlt);
     setSelectedPhotographer(mediaPhotographer);
+
+    console.log(mediaPhotographer);
 
     window.scrollTo({ top: 0, behavior: "smooth" });
     navigate(`/product`);

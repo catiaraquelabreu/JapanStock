@@ -4,14 +4,14 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./styles.module.scss";
 import { useMedia } from "../../../Context/MediaContext";
 import { useAltText } from "../../../Context/AltTextContext";
+import { usePhotographer } from "../../../Context/PhotographerContext";
+
 const usePexelsClient = () => {
   const client = createClient(
     "lipp6EwAzKTRaeYRpkClzZl43I9Y9MvqkSUJGyYWV691aQtXTOCnWmoo"
   );
   return client;
 };
-
-// ANTIGO FUNCIONNAL
 
 const usePexelsPhotos = (searchQuery, category) => {
   const [photos, setPhotos] = useState([]);
@@ -81,6 +81,7 @@ function NormalGrid({ searchQuery, category }) {
   const navigate = useNavigate();
   const { setSelectedMedia } = useMedia();
   const { setSelectedAlt } = useAltText();
+  const { setSelectedPhotographer } = usePhotographer();
 
   const handleMediaClick = (item) => {
     let mediaSrc;
@@ -99,8 +100,13 @@ function NormalGrid({ searchQuery, category }) {
       mediaAlt = item.alt;
     }
 
+    let mediaPhotographer;
+
+    mediaPhotographer = item.photographer;
+
     setSelectedMedia(mediaSrc);
     setSelectedAlt(mediaAlt);
+    setSelectedPhotographer(mediaPhotographer);
     window.scrollTo({ top: 0, behavior: "smooth" });
     navigate(`/product`);
   };

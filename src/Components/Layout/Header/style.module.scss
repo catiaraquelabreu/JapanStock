@@ -66,19 +66,55 @@
 @media screen and (max-width: 1000px) {
   .container {
     display: flex;
-    justify-content: space-between;
-    gap: 24px;
     width: 100%;
 
     .div {
-      padding: 16px 16px;
+      padding: 16px 6px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      width: 1440px;
       margin: 0 auto;
-      gap: 24px;
       flex-direction: row-reverse;
+
+      a {
+        transform: translateX(-40vw);
+      }
+
+      .hamb {
+        display: flex;
+        justify-content: center;
+      }
+
+      .actions {
+        display: none;
+      }
+
+      .search {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    width: 100%;
+
+    .div {
+      padding: 16px 6px;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      flex-direction: row-reverse;
+
+      a {
+        transform: translateX(-32vw);
+      }
+
+      .hamb {
+        display: flex;
+        justify-content: center;
+      }
 
       .actions {
         display: none;

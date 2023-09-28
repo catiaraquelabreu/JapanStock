@@ -10,7 +10,6 @@ function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.div}>
-        <div></div>
         <Link to="/">
           <Logo />
         </Link>
