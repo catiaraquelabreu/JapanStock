@@ -12,7 +12,7 @@ I invite you to explore this digital gateway to Japan's visual wonders, and I'm 
 
 Home Page:
 
-This is where my project begins 🍡
+This is where my project begins 🍡.
 In this page we can find an interactive search bar where the user can choose to search Photos, Videos or both!
 The user just needs to type a city around Japan and search 🗾.
 In the main section we can find a mosaic grid with different photos around Japan and they're all clickable that leads the user to the product page .
