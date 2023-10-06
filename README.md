@@ -11,6 +11,8 @@ The resulting website boasts full responsiveness, adapting flawlessly to various
 I invite you to explore this digital gateway to Japan's visual wonders, and I'm excited to hear your thoughts on the project!
 
 Home Page:
+![Screenshot (103)](https://github.com/catiaraquelabreu/JapanStock/assets/131707164/9f9fbdea-9718-40b2-b032-60fb46c91d97)
+
 
 This is where my project begins 🍡.
 In this page we can find an interactive search bar where the user can choose to search Photos, Videos or both!
