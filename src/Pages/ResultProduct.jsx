@@ -15,7 +15,7 @@ function ResultProduct() {
     <div>
       <SubHeader />
       <HeroSection
-        titleContent={selectedAltText || "Stunning Japanese Video"}
+        titleContent={selectedAltText || "Stunning Japanese Content"}
       />
       <MainResultProduct selectedImage={selectedImage} />
     </div>
