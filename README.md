@@ -12,7 +12,10 @@ I invite you to explore this digital gateway to Japan's visual wonders, and I'm 
 
 Home Page:
 
-This is where my project begins 🍡
+![Screenshot (103)](https://github.com/catiaraquelabreu/JapanStock/assets/131707164/9f9fbdea-9718-40b2-b032-60fb46c91d97)
+
+
+This is where my project begins 🍡.
 In this page we can find an interactive search bar where the user can choose to search Photos, Videos or both!
 The user just needs to type a city around Japan and search 🗾.
 In the main section we can find a mosaic grid with different photos around Japan and they're all clickable that leads the user to the product page .
@@ -20,11 +23,17 @@ We can also see a link section with Pouplaar areas and a footer with all the imp
 
 Results Page:
 
+![Screenshot (105)](https://github.com/catiaraquelabreu/JapanStock/assets/131707164/7f832ebb-78c4-479e-a1f5-7e00192944ce)
+
+
 In this page we find a grid with the results from the serach in the searchbar and they're all collected from the Pexels API. 🏯
 The data here can be either photos, videos or both, which all depends on what was selected on the search bar.
 The map shown on the right side is interactive and showcases the location of the search queried by the user. 🗺️
 
 Product Page:
+
+![Screenshot (106)](https://github.com/catiaraquelabreu/JapanStock/assets/131707164/2fafd0d0-774d-49c6-98c1-3befb0c61089)
+
 
 This is where the user can acquire the photo or video. 
 The data shown on this page is all fetched from the previous page, including the alt text (showcased on the title), photographer name and the image itself. 
