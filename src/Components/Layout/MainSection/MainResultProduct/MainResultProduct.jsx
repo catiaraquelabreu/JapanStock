@@ -99,7 +99,7 @@ function MainResultProduct() {
         <div className={styles.box}>
           <div className={styles.info}>
             <img src={Shop}></img>
-            <p>{selectedAltText || "Stunning Japanese Video"}</p>
+            <p>{selectedAltText || "Stunning Japanese Content"}</p>
           </div>
           <p>{`Photographer : ${
             selectedPhotographerText || "Creator with no ID"
