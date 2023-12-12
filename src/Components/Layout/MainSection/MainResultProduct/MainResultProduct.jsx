@@ -66,12 +66,12 @@ function MainResultProduct() {
         <p>
           Japan, a land where time seems to blend harmoniously with nature,
           unveils a tapestry of breathtaking landscapes and captivating
-          cityscapes. Amidst the modernity, Japan's appreciation for simplicity
-          and mindfulness can be witnessed in the Zen gardens and the meditative
-          art of calligraphy. From the serene countryside to the bustling
-          metropolises, this country weaves together a symphony of beauty that
-          enchants all who wander through its captivating vistas. It is a
-          tapestry woven with threads of beauty, where ancient traditions
+          cityscapes. Amidst the modernity, Japan&apos;s appreciation for
+          simplicity and mindfulness can be witnessed in the Zen gardens and the
+          meditative art of calligraphy. From the serene countryside to the
+          bustling metropolises, this country weaves together a symphony of
+          beauty that enchants all who wander through its captivating vistas. It
+          is a tapestry woven with threads of beauty, where ancient traditions
           coexist with cutting-edge technology. Whether wandering through the
           serene landscapes or exploring the vibrant cities, Japan enthralls the
           senses, leaving an indelible mark on the heart of every traveler
@@ -99,7 +99,7 @@ function MainResultProduct() {
         <div className={styles.box}>
           <div className={styles.info}>
             <img src={Shop}></img>
-            <p>{selectedAltText || "Stunning Japanese Video"}</p>
+            <p>{selectedAltText || "Stunning Japanese Content"}</p>
           </div>
           <p>{`Photographer : ${
             selectedPhotographerText || "Creator with no ID"

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import SubHeader from "../Components/Layout/SubHeader/SubHeader";
 import HeroSection from "../Components/Layout/Hero/HeroSection/HeroSection";
@@ -15,7 +14,7 @@ function ResultProduct() {
     <div>
       <SubHeader />
       <HeroSection
-        titleContent={selectedAltText || "Stunning Japanese Video"}
+        titleContent={selectedAltText || "Stunning Japanese Content"}
       />
       <MainResultProduct selectedImage={selectedImage} />
     </div>
